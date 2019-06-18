@@ -20,8 +20,5 @@
         <releaseNotes>
          1.0.0: Initial release.
         </releaseNotes>
-        <dependencies>
-            <dependency id="chocolatey-windowsupdate.extension" version="1.0.4" />
-        </dependencies>
     </metadata>
 </package>
