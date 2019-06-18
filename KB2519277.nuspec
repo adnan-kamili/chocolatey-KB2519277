@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>KB2519277</id>
+        <version>1.0.0</version>
+        <packageSourceUrl>https://github.com/adnan-kamili/chocolatey-KB2519277/new/master</packageSourceUrl>
+        <owners>Adnan Kamili</owners>
+        <title>KB2519277</title>
+        <authors>Microsoft</authors>
+        <projectUrl>https://support.microsoft.com/en-us/kb/2519277</projectUrl>
+        <iconUrl>https://assets.onestore.ms/cdnfiles/onestorerolling-1509-17011/shell/v1_2/images/logo/microsoft.png</iconUrl>
+        <licenseUrl>https://support.microsoft.com/en-us/kb/2519277</licenseUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <tags>KB2519277</tags>
+        <summary>Microsoft Visual C++ 2010 Service Pack 1 Compiler Update for the Windows SDK 7.1</summary>
+        <description>
+          Install this update to restore the Visual C++ compilers and libraries that may have been removed when Visual Studio 2010 Service Pack 1 (SP1) was installed. 
+          The compilers and libraries are part of the Microsoft Windows Software Development Kit for Windows 7 and the .NET Framework 4 (later referred to as the Windows SDK 7.1).
+        </description>
+        <releaseNotes>
+         1.0.0: Initial release.
+        </releaseNotes>
+        <dependencies>
+            <dependency id="chocolatey-windowsupdate.extension" version="1.0.4" />
+        </dependencies>
+    </metadata>
+</package>
